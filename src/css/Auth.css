@@ -1,0 +1,167 @@
+.auth-form {
+   position: fixed;
+  top: 0px;
+  left: 0px; 
+  width: 100%; 
+  /* height: 100vh; */
+  background-color: #ffffff;
+}
+
+.auth-form p {
+  font-size: 17px;
+}
+
+.auth-form form {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  padding-bottom: 90px;
+}
+
+/* .auth-form form h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0px;
+} */
+.auth-form form img {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.auth-form form div {
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.auth-form p {
+  margin-bottom: 10px;
+}
+
+.auth-form form div input {
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 9px;
+  height: 50px;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.login-btn {
+  display: block;
+  border: 1px solid rgba(54, 45, 45, 0.1);
+  outline: none;
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #432616;
+  color: white;
+  height: 45px;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.reg-btn {
+  background-color: #000;
+  color: #fff;
+  margin-top: 15px;
+  padding: 15px 139px 15px 139px;
+  border-radius: 3px;
+  font-size: 16px;
+
+}
+
+.log-btn {
+  background-color: #000;
+  color: #fff;
+  margin-top: 15px;
+  padding: 15px 150px 15px 150px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.auth-form2 {
+  position: absolute;
+ top: 0px;
+ left: 0px; 
+ width: 100%; 
+ height: 120vh;
+ background-color: #fff;
+}
+
+.auth-form2 p {
+ font-size: 17px;
+}
+
+.auth-form2 form {
+ border: 1px solid rgba(0, 0, 0, 0.1);
+ width: 400px;
+ margin: 50px auto;
+ text-align: center;
+ padding: 20px;
+ border-radius: 5px;
+ padding-bottom: 90px;
+}
+
+/* .auth-form form h3 {
+ font-size: 25px;
+ font-weight: bold;
+ margin: 10px 0px;
+} */
+.auth-form2 form img {
+ margin-bottom: 10px;
+ margin-top: 5px;
+}
+
+.auth-form2 form div {
+ text-align: left;
+ margin-bottom: 12px;
+}
+
+.auth-form2 p {
+ margin-bottom: 10px;
+}
+
+.auth-form2 form div input {
+ display: block;
+ border: 1px solid rgba(0, 0, 0, 0.1);
+ outline: none;
+ width: 100%;
+ padding: 5px;
+ border-radius: 3px;
+ margin-top: 9px;
+ height: 40px;
+ font-size: 17px;
+ margin-bottom: 5px;
+}
+
+.login-btn2 {
+ display: block;
+ border: 1px solid rgba(54, 45, 45, 0.1);
+ outline: none;
+ width: 100%;
+ padding: 8px;
+ border-radius: 3px;
+ margin-top: 20px;
+ cursor: pointer;
+ margin-top: 20px;
+ background-color: #432616;
+ color: white;
+ height: 45px;
+ font-size: 16px;
+ margin-bottom: 20px;
+}
+
+.a-word {
+  text-align: left;
+  padding-bottom: 14px;
+}
