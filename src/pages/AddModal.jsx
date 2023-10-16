@@ -49,7 +49,7 @@ const AddModal = ({ handleShowAddModal }) => {
       console.log(form);
       // Send the form data to your server
       const response = await axios.post(
-        "http://test.sammykingx.tech/notes/save",
+        "https://japaconsults.sammykingx.tech/notes/save",
         form,
         {
           headers: {
@@ -71,7 +71,7 @@ const AddModal = ({ handleShowAddModal }) => {
         const errDetail = error.response.data.detail
         console.log(errDetail);
         if(errDetail === "expired access token") {
-          navigate("/login");
+          navigate("/");
         } else if (errDetail === "User not verified");
         toast.error("UNVERIFIED USER");
         // You can access error.response.data for the server's error response

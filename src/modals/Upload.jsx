@@ -63,13 +63,14 @@ uploadTask.on(
 
       // "file_name": "string",
       // "file_url": "string"
+      const  folder_name = fileName;
 
-      const userFiles = {...inputs, file: downloadURL, folder_name: fileName};
+      const userFiles = {...inputs, file:  downloadURL };
 
       console.log(userFiles.file);
 
       try {
-        const res = await axios.post('http://test.sammykingx.tech/documents/upload',
+        const res = await axios.post('https://japaconsults.sammykingx.tech/documents/upload',
          userFiles,
          {
           headers: {

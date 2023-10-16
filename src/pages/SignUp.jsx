@@ -65,7 +65,7 @@ const SignUp = () => {
     try {
       let role = "user"
       const response = await axios.post(
-        "http://test.sammykingx.tech/user/register",
+        "https://japaconsults.sammykingx.tech/user/register",
         JSON.stringify({name, email, phone_num, password }),
         {
           headers: { 'Content-Type': 'application/json' },

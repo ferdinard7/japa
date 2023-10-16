@@ -59,7 +59,7 @@ const UpdateModal = ({ handleShowUpdateModal, token, draft }) => {
       console.log(form);
       // Send the form data to your server
       const response = await axios.put(
-        "http://test.sammykingx.tech/drafts/update",
+        "https://japaconsults.sammykingx.tech/notes/update",
         form,
         {
           headers: {

@@ -158,7 +158,7 @@ const Message = ({ token }) => {
     Authorization: `Bearer ${token}`,
   };
 
-  const socket = io("http://test.sammykingx.tech/", {
+  const socket = io("https://japaconsults.sammykingx.tech/", {
     headers,
   });
 

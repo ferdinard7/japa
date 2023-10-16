@@ -268,7 +268,7 @@ const Drafts = ({ token }) => {
   useEffect(() => {
     const getDrafts = async () => {
       try {
-        const res = await axios.get("http://test.sammykingx.tech/notes", {
+        const res = await axios.get("https://japaconsults.sammykingx.tech/notes", {
           headers,
         });
 
@@ -292,7 +292,7 @@ const Drafts = ({ token }) => {
       setIsLoading(true);
 
       const response = await axios.delete(
-        `http://test.sammykingx.tech/notes/delete/?d_id=${id}`,
+        `https://japaconsults.sammykingx.tech/notes/delete/?d_id=${id}`,
         { headers }
       );
 
@@ -331,7 +331,7 @@ const Drafts = ({ token }) => {
     setShowUpdateModal(!showUpdateModal);
   };
 
-  {/* token={token} */}
+
 
   return (
     <div className="message-container">

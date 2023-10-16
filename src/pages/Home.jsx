@@ -31,7 +31,7 @@ const Home = () => {
   useEffect(() => {
     const getUserDetails = async () => {
       try {
-        const res = await axios.get("http://test.sammykingx.tech/user/profile", {
+        const res = await axios.get("https://japaconsults.sammykingx.tech/user/profile", {
           headers,
         });
 
